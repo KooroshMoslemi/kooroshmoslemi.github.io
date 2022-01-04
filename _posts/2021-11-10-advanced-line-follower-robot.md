@@ -19,7 +19,7 @@ The overall procedure is described as follows :
 - First, we sent the camera stream through a wired connection to our pc and then processed the image with OpenCV in C++. We also tested an IP camera and captured frames through a local network that worked in real-time.
 - After processing the image, we sent proper controlling commands to the robot with a USB to TTL module. We also experimented with HMT-HMR modules.
 
-As This project was our first experience with computer vision, we did not use any ML/DL techniques.
+This project was our first experience with computer vision and we did not use any ML/DL techniques.
 We created robust and custom color filters, and we were able to detect shapes through hand-crafted features like the number of corners and angles between lines!
 
 <p align="center">
