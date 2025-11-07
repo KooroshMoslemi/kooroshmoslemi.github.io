@@ -1,0 +1,55 @@
+{{ $dataCategories:= slice "pub-all"}}
+{{ range .categories}}
+  {{ $dataCategories = $dataCategories | append (printf "pub-%s" .)}}
+{{end}}
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='{{ delimit $dataCategories ","}}'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">{{ .title }}</h5>
+      <div class="sub-title">
+        <span>
+          {{ if .publishedIn.url }}
+          <a class="" href="{{.publishedIn.url}}">{{ .publishedIn.name }}</a>
+          {{ else }}
+          <a class="">{{ .publishedIn.name }}</a>
+          {{ end }}
+        </span>
+        <span class="ms-2">{{ .publishedIn.date }}</span>
+      </div>
+      <div class="authors">
+        {{ range $index,$author:= .authors }}
+        {{if .url}}
+          <span class="me-2"><a class="" href="{{.url}}">{{ .name }}</a></span>
+        {{ else }}
+        <span class="me-2 author-name">{{ .name }}</span>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="card-body">
+      <p>{{ .paper.summary | markdownify }}</p>
+    </div>
+    <div class="card-footer d-flex justify-content-between align-items-center">
+      <div class="tags">
+        {{ range $index,$tag:= .tags }}
+            <span class="btn badge btn-info ms-1 p-2">
+              {{ $tag }}
+            </span>
+        {{ end }}
+      </div>
+      <div class="publication-buttons">
+        {{ if .repo }}
+        <a class="btn btn-outline-info btn-sm mb-2" href="{{ .repo }}" target="_blank" rel="noopener" role="button">Code</a>
+        {{ end }}
+        {{ if .paper.url }}
+        <a class="btn btn-outline-info btn-sm mb-2 ms-2" href="{{ .paper.url }}" target="_blank" rel="noopener" role="button">Paper</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+

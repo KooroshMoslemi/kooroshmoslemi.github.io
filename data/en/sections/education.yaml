@@ -10,95 +10,123 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Ph.D in Reinforcement Learning and Robotics
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2023-2028
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    name: University of Toronto
+    url: "https://www.utoronto.ca/"
+    logo: /images/sections/education/uoft_logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
+  customSections:
+    - name: Thesis
+      content: Test-Time Adaptive Team-Aware Hierarchical Planning in Cooperative Multi-Agent Reinforcement Learning
+    - name: Supervisor
+      content: Prof. Chi-Guhn Lee
+  extracurricularActivities: #(optional)
+  - University of Toronto Formula Racing (UTFR) - Working on Model Predictive Contouring Control (MPCC) in Driverless Vehicle (DV) division.
+  - University of Toronto Aerospace Team (UTAT) - Working on planning and control for a hybrid V/STOL aircraft in Unmanned Aerial Systems (UAS) division.
   grade: #(optional)
     scale: CGPA
-    achieved: 3.6
+    achieved: 3.91
     outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  #   url: "#"
+
+- name: B.Sc. in Computer Science
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2019-2023
   institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    name: Amirkabir University of Technology
+    url: "https://aut.ac.ir/en"
+    logo: /images/sections/education/aut_logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
-    outOf: 4
+    achieved: 19.57
+    outOf: 20
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    - name: Game Theory
+      achieved: 20
+      outOf: 20
+    - name: Graph Machine Learning
+      achieved: 20
+      outOf: 20
+    - name: Data Structures and Algorithms
+      achieved: 20
+      outOf: 20
+    - name: Design and Analysis of Algorithms
+      achieved: 18.5
+      outOf: 20
+    - name: Numerical Linear Algebra
+      achieved: 20
+      outOf: 20
+    - name: Statistical Computing
+      achieved: 20
+      outOf: 20
+    - name: Linear Optimization
+      achieved: 20
+      outOf: 20
+    - name: Combinatorial Optimization
+      achieved: 20
+      outOf: 20
+    - name: Data Mining
+      achieved: 20
+      outOf: 20
+    - name: Artificial Intelligence
+      achieved: 20
+      outOf: 20
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
   customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
+    - name: Accomplishments
+      content: Ranked **1st** in the class of 2023 among 82 students.
+    # - name: Supervisor
+    #   content: Fusce eu augue ut odio porttitor pulvinar.
 - name: Higher Secondary School Certificate
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2015-2019
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: The school of National Organization for Development of Exceptional Talents (NODET)
+    url: "https://www.linkedin.com/school/iransampad/"
+    logo: /images/sections/education/sampad_logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
   grade: #(optional)
     scale: GPA
-    achieved: 5
-    outOf: 5
+    achieved: 19.97
+    outOf: 20
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - Junior Soccer League Robotics Team in Iran Open International RoboCup Competitions. Developed a Real-Time Ball Tracking Algorithm with OpenCV on Raspberry Pi. Designed a 3D-Printed Hyperbolic Mirror for 360-Degree Camera View using SolidWorks.
+  - Competitive Programming.
+  customSections: #(optional)
+    - name: Accomplishments
+      content: Ranked 434 out of 164,278 students (**top 0.3%**) in the Mathematics field in the Iranian National University Entrance Exam.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5

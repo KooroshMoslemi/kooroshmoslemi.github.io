@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,54 +12,94 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
+- name: PhD
+  filter: "PhD"
+- name: Bsc
+  filter: "Bsc"
 - name: Hobby
-  filter: "hobby"
+  filter: "Hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+# - name: Toha
+#   # logo: /images/sections/projects/toha.png
+#   image: /images/sections/projects/toha_website.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   # repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   url: "/posts/markdown-sample/"
+#   tags: ["Hobby","hugo","theme","professional"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: "Advanced Line Follower Robot"
+  image: /images/sections/projects/tanki.png
+  summary: "An advanced line follower robot that uses a camera and OpenCV for image processing to detect lines and shapes of different colors."
+  url: "/posts/advanced-line-follower-robot/"
+  tags: ["Hobby", "Robotics", "C++", "OpenCV", "AVR"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: "Community Detection Using Genetic Algorithm and Cuckoo Search"
+  image: /images/sections/projects/graph.png
+  summary: "An AI project on community detection in networks using Genetic Algorithm and Cuckoo Search, including locus-based representation and modularity as a fitness function."
+  url: "/posts/community-detection/"
+  tags: ["Bsc", "AI", "Genetic Algorithm", "Cuckoo Search", "Community Detection"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: "Detecting Iranian Paper Money to Help People With Visual Disabilities"
+  image: /images/sections/projects/tflite_android_banknote.png
+  summary: "A deep learning project to detect Iranian paper money for visually impaired individuals, using TensorFlow Lite and transfer learning on MobileNet."
+  url: "/posts/currency-detection/"
+  tags: ["Hobby", "Deep Learning", "Machine Learning", "TensorFlow Lite", "MobileNet", "Android"]
+
+- name: "Designing an ETL Pipeline for a Data Warehouse"
+  image: /images/sections/projects/etl.png
+  summary: "A three-phase project for a database course, including database design, ETL pipeline creation, and a 'time machine' feature for database restoration."
+  url: "/posts/etl-pipeline/"
+  tags: ["Bsc", "ETL", "PostgreSQL", "Python", "Database", "Data Warehouse"]
+
+- name: "Solving a Real Examination Timetabling Problem"
+  image: /images/sections/projects/schedule.jpg
+  summary: "A combinatorial optimization project to schedule mid-term exams for the MCS department at Amirkabir University of Technology, using mathematical modeling and GAMS."
+  url: "/posts/examination-timetabling/"
+  tags: ["Bsc", "Combinatorial Optimization", "Mathematical Modeling", "GAMS", "MINLP"]
+
+- name: "Playing Lunar Lander with Expected Sarsa and a Neural Network"
+  image: /images/sections/projects/lunar_lander.jpg
+  summary: "An improvement on a reinforcement learning project, using Expected Sarsa and a neural network to play Lunar Lander games, trained with Keras and TensorFlow."
+  url: "/posts/playing-lunar_lander/"
+  tags: ["Bsc", "Reinforcement Learning", "TensorFlow", "Keras", "Neural Networks"]
+
+- name: "Designing a Shooting Simulator Game"
+  image: /images/sections/projects/shooting_view.jpg
+  summary: "A shooting simulator game created for a school fair that uses a laser-equipped toy gun and an IP camera for scoring."
+  url: "/posts/shooting-simulator-game/"
+  tags: ["Hobby", "Computer Vision", "C++", "OpenCV", "Game Development"]
+
+- name: "A Simple Line Follower Robot"
+  image: /images/sections/projects/line_follower.png
+  summary: "A line follower robot developed during junior high school using an AVR microcontroller, designed with Proteus, and programmed with Bascom."
+  url: "/posts/simple-line-follower-robot/"
+  tags: ["Hobby", "Robotics", "AVR", "Proteus", "Bascom"]
+
+- name: "Planning and Control of a Quadcopter"
+  image: /images/sections/projects/rrt_drone.png
+  summary: "This project implements an enhanced 3D RRT* (Rapidly-exploring Random Tree Star) algorithm to plan drone trajectories through a sequence of gates while avoiding obstacles. The planner is adapted for realistic racing conditions, supporting both take-off and landing phases and fine-grained path smoothing for controller execution. Key innovations include sampling biases, strict collision checking during rewiring, and customized handling of drone kinematics (speed profiles, banking angles)."
+  repo: "https://github.com/KooroshMoslemi/AER1217_Project"
+  tags: ["PhD", "Robotics", "RRT*", "Crazyflie"]
+
+- name: "Mobile Manipulation Capstone Project"
+  image: /images/sections/projects/youbot.png
+  summary: "This repository contains the capstone project for the Coursera Modern Robotics Specialization (Course 6). The project implements autonomous mobile manipulation for a KUKA youBot to pick and place objects using trajectory planning, odometry, and feedback control."
+  repo: "https://github.com/KooroshMoslemi/Mobile-Manipulation-Capstone"
+  tags: ["Bsc", "CoppeliaSim", "Mobile Manipulation", "PI Controller", "Forward Kinematics"]
+
+- name: "Extended Kalman Filter (EKF) for Mobile Robot"
+  image: /images/sections/projects/ekf.png
+  summary: "This repository contains a reference implementation of an Extended Kalman Filter (EKF) for planar mobile robot state estimation. The EKF estimates the robot pose (x, y, θ) using odometry/control inputs and range–bearing measurements to known landmarks."
+  repo: "https://github.com/KooroshMoslemi/Extended-Kalman-Filter-EKF-for-Mobile-Robot"
+  tags: ["PhD", "Kalman Filter", "State Estimation"]
+
+- name: "Sparse Batch Optimization for 6-DOF Pose Estimation with IMU-Camera Fusion"
+  image: /images/sections/projects/6d_pose_estimation.png
+  summary: "The goal is to estimate the full 3D position and orientation trajectory of a sensor head as it moves through space. The solution fuses measurements from two different sensors—a stereo camera and an Inertial Measurement Unit (IMU)—using the Gauss-Newton method."
+  repo: "https://github.com/KooroshMoslemi/Sparse-Batch-Optimization-for-6-DOF-Pose-Estimation-with-IMU-Camera-Fusion"
+  tags: ["PhD", "Sensor Fusion", "Gauss-Newton", "State Estimation"]

@@ -2,3 +2,4 @@ resources/*
 node_modules/*
 public/*
 .vscode/
+old_projects_markdown/*

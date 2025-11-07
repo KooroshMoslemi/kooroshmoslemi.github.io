@@ -52,7 +52,9 @@ This is sample alert with `type="secondary"`.
 
 #### A sample image without any attribute.
 
-{{< img src="/posts/shortcodes/boat.jpg" title="A boat at the sea" >}}
+{{< img src="https://drive.google.com/thumbnail?id=1ZFjRzW2HKdrgdVLJXnebRQ9zA2on1KFr&sz=w640-h480" title="A boat at the sea" >}}
+
+{{< img src="https://drive.google.com/thumbnail?id=1x8KBGWNxjee1NCjo61HL6qvCS4usiH6j&sz=w640-h480" title="A boat at the sea" >}}
 
 {{< vs 3 >}}
 

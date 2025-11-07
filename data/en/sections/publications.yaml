@@ -1,9 +1,9 @@
 # section information
 section:
-  name: Publications
+  name: Papers
   id: publications
   enable: true
-  weight: 6
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,71 +12,62 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "2025"
+  filter: "2025"
+- name: "2024"
+  filter: "2024"
+- name: "2023"
+  filter: "2023"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: Minimizing Cover Time in Multi-Agent Variational Option Discovery
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: (Under Review)
+    # date: 7 June 2020
+    # url: https://example.com
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Koorosh Moslemi
+    url: https://scholar.google.com/citations?user=ZN1eWujwKiAC&hl=en
+  - name: Prof. Chi-Guhn Lee
+    url: https://scholar.google.ca/citations?user=ZpALG2AAAAAJ&hl=en
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: "Variational option discovery methods in multi-agent reinforcement learning (MARL) are powerful tools for hierarchical control, especially in settings with sparse rewards. However, these methods often struggle with a critical challenge: they tend to learn localized options that explore only a small portion of the state space. This issue stems from the difficulty of encouraging widespread exploration while maximizing a variational lower bound inherent in these frameworks. We solve this by proposing the Multi-Agent Variational Covering Option Discovery (MAVCOD) algorithm. Our core contribution is the Connectivity-Aware Replay Buffer Graph (CARBG), a novel and efficient data structure that dynamically tracks approximate bounds for connectivity of the individual and joint state-transition graphs. By using these connectivity bounds as intrinsic rewards, MAVCOD explicitly guides agents to discover \textit{covering options} that bridge disparate regions of the state space. We provide theoretical insights on how maximizing our intrinsic rewards minimizes the expected cover time of the state-transition graphs. Empirically, we demonstrate on challenging sparse-reward benchmarks that MAVCOD significantly outperforms a state-of-the-art baseline. Furthermore, state visitation heatmaps visually confirm that our method achieves substantially better exploration."
+    # url: https://example.com
+  categories: ["2025"]
+  tags: ["Hierarchical Planning", "Multi-Agent Reinforcement Learning"]
 
-- title: An Sample Paper on Image Processing
+- title: Learning Bilateral Team Formation in Cooperative Multi-Agent Reinforcement Learning
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: RLC 2025 (CoCoMARL Workshop)
+    # date: 7 June 2020
+    url: https://sites.google.com/view/cocomarl2025/accepted-papers
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Koorosh Moslemi
+    url: https://scholar.google.com/citations?user=ZN1eWujwKiAC&hl=en
+  - name: Prof. Chi-Guhn Lee
+    url: https://scholar.google.ca/citations?user=ZpALG2AAAAAJ&hl=en
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: "Team formation and the dynamics of team-based learning have drawn significant interest in the context of Multi-Agent Reinforcement Learning (MARL). However, existing studies primarily focus on unilateral groupings, predefined teams, or fixed-population settings, leaving the effects of algorithmic bilateral grouping choices in dynamic populations underexplored. To address this gap, we introduce a framework for learning two-sided team formation in dynamic multi-agent systems. Through this study, we gain insight into what algorithmic properties in bilateral team formation influence policy performance and generalization. We validate our approach using widely adopted multi-agent scenarios, demonstrating competitive performance and improved generalization in most scenarios."
+    url: https://openreview.net/forum?id=pmFG6u5HQn
+  categories: ["2024"]
+  tags: ["Team Formation", "Multi-Agent Reinforcement Learning"]
 
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+- title: A Machine Learning Enhanced Decomposition Approach to Solving Maximum Clique on Quantum Annealers
+  # publishedIn:
+  #   name: 2020 IEEE Region Symposium (TENSYMP)
+  #   date: 7 June 2020
+  #   url: https://example.com
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Koorosh Moslemi
+    url: https://scholar.google.com/citations?user=ZN1eWujwKiAC&hl=en
+  - name: Jerry Sun
+    url: https://scholar.google.com/citations?user=sSfo0V4AAAAJ&hl=en
+  - name: Zhixiao Xiong
+    url: https://xiong-zx.github.io/
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: "Quantum computing, especially quantum annealing, holds promise for tackling intricate optimizationchallenges. However, its practical implementation confronts limitations like restricted hardwareconnectivity. This report describes our efforts to augment the performance of quantum annealersin solving the maximum clique problem through traditional graph decomposition techniques andmachine learning methodologies. Building on the DBK decomposition algorithm proposed by Pelofske et al. [2021], we propose a new RL-enhanced decomposition step, and two learning-assisted vertex selection methods (imitation learning and reinforcement learning). Preliminary experiments on medium-scale synthetic datasets show considerable improvements. All relevant data and code pertaining to this research are openly accessible on our Github repository."
+    url: https://drive.google.com/uc?export=download&id=1hvAQ2_zi1YUd147h9c_icgzogXRT7Z-I
+  repo: https://github.com/KooroshMoslemi/MaxClique
+  categories: ["2023"]
+  tags: ["GNN", "MCTS"]
