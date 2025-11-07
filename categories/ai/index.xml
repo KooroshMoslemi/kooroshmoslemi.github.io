@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Koorosh's Website</title><link>https://kooroshmoslemi.github.io/categories/ai/</link><description>Recent content in AI on Koorosh's Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kooroshmoslemi.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Community Detection Using Genetic Algorithm and Cuckoo Search</title><link>https://kooroshmoslemi.github.io/posts/community-detection/</link><pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/community-detection/</guid><description>&lt;p&gt;This project was an assignment for an AI course at the &lt;a href="https://aut.ac.ir/en" target="_blank" rel="noopener"&gt;Amirkabir University of Technology&lt;/a&gt;, where the goal was to identify communities in a network using the &lt;a href="https://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank" rel="noopener"&gt;Genetic Algorithm&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Cuckoo_search" target="_blank" rel="noopener"&gt;Cuckoo Search&lt;/a&gt;. This post will focus on the problem-specific implementations rather than a detailed explanation of the algorithms themselves.&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s consider a sample input graph:&lt;/p&gt;
+&lt;img src="https://drive.google.com/thumbnail?id=1EIMeX0HL_mK1lmJXq2gk5iBwzXzWH-UA&amp;amp;sz=w640-h480"
+alt="Sample Input Graph"
+class="center"
+&gt;
+&lt;h3 id="finding-communities-using-genetic-algorithm"&gt;Finding Communities Using Genetic Algorithm&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Genetic Representation and Fitness Function&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I used a locus-based representation for this problem, as illustrated below:
+&lt;img src="https://drive.google.com/thumbnail?id=10Sl9PtVLBAG5ZQVKfU9Hs5exovN7IQAn&amp;amp;sz=w640-h480"
+alt="Locus-based Representation"
+class="center"
+&gt;
+&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://en.wikipedia.org/wiki/Modularity_%28networks%29#Modularity" target="_blank" rel="noopener"&gt;modularity measure&lt;/a&gt; was used as the fitness function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Selection&lt;/strong&gt;:&lt;/p&gt;</description></item></channel></rss>

@@ -1,119 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Koorosh's Website</title><link>https://kooroshmoslemi.github.io/</link><description>Recent content on Koorosh's Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://kooroshmoslemi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://kooroshmoslemi.github.io/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://kooroshmoslemi.github.io/posts/introduction/</guid><description>&lt;p&gt;Greeting! This is an introduction post. This post tests the followings:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hero image is in the same directory as the post.&lt;/li&gt;
-&lt;li&gt;This post should be at top of the sidebar.&lt;/li&gt;
-&lt;li&gt;Post author should be the same as specified in &lt;code&gt;author.yaml&lt;/code&gt; file.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Markdown Samples</title><link>https://kooroshmoslemi.github.io/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://kooroshmoslemi.github.io/posts/markdown-sample/</guid><description>&lt;p&gt;This is a sample post intended to test the followings:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A different post author.&lt;/li&gt;
-&lt;li&gt;Table of contents.&lt;/li&gt;
-&lt;li&gt;Markdown content rendering.&lt;/li&gt;
-&lt;li&gt;Math rendering.&lt;/li&gt;
-&lt;li&gt;Emoji rendering.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id="markdown-syntax-rendering"&gt;Markdown Syntax Rendering&lt;/h1&gt;
-&lt;h2 id="headings"&gt;Headings&lt;/h2&gt;
-&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
-&lt;h1 id="h1"&gt;H1&lt;/h1&gt;
-&lt;h2 id="h2"&gt;H2&lt;/h2&gt;
-&lt;h3 id="h3"&gt;H3&lt;/h3&gt;
-&lt;h4 id="h4"&gt;H4&lt;/h4&gt;
-&lt;h5 id="h5"&gt;H5&lt;/h5&gt;
-&lt;h6 id="h6"&gt;H6&lt;/h6&gt;
-&lt;h2 id="paragraph"&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description></item><item><title>Rich Content</title><link>https://kooroshmoslemi.github.io/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://kooroshmoslemi.github.io/posts/category/sub-category/rich-content/</guid><description>&lt;p&gt;This sample post tests the followings:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Category, sub-category nesting in the sidebar.&lt;/li&gt;
-&lt;li&gt;Hero image and other images are in &lt;code&gt;images&lt;/code&gt; folder inside this post directory.&lt;/li&gt;
-&lt;li&gt;Different media rendering like image, tweet, YouTube video, Vimeo video etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="image-sample"&gt;Image Sample&lt;/h3&gt;
-&lt;img src="https://kooroshmoslemi.github.io/posts/category/sub-category/rich-content/images/forest.jpg"
-alt="Forest"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Koorosh's Website</title><link>https://kooroshmoslemi.github.io/</link><description>Recent content on Koorosh's Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kooroshmoslemi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Community Detection Using Genetic Algorithm and Cuckoo Search</title><link>https://kooroshmoslemi.github.io/posts/community-detection/</link><pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/community-detection/</guid><description>&lt;p&gt;This project was an assignment for an AI course at the &lt;a href="https://aut.ac.ir/en" target="_blank" rel="noopener"&gt;Amirkabir University of Technology&lt;/a&gt;, where the goal was to identify communities in a network using the &lt;a href="https://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank" rel="noopener"&gt;Genetic Algorithm&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Cuckoo_search" target="_blank" rel="noopener"&gt;Cuckoo Search&lt;/a&gt;. This post will focus on the problem-specific implementations rather than a detailed explanation of the algorithms themselves.&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s consider a sample input graph:&lt;/p&gt;
+&lt;img src="https://drive.google.com/thumbnail?id=1EIMeX0HL_mK1lmJXq2gk5iBwzXzWH-UA&amp;amp;sz=w640-h480"
+alt="Sample Input Graph"
 class="center"
 &gt;
-&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
-&lt;h3 id="tweet-sample"&gt;Tweet Sample&lt;/h3&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC"&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw"&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
-&lt;h3 id="youtube-video-sample"&gt;YouTube Video Sample&lt;/h3&gt;
+&lt;h3 id="finding-communities-using-genetic-algorithm"&gt;Finding Communities Using Genetic Algorithm&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Genetic Representation and Fitness Function&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I used a locus-based representation for this problem, as illustrated below:
+&lt;img src="https://drive.google.com/thumbnail?id=10Sl9PtVLBAG5ZQVKfU9Hs5exovN7IQAn&amp;amp;sz=w640-h480"
+alt="Locus-based Representation"
+class="center"
+&gt;
+&lt;/li&gt;
+&lt;li&gt;The &lt;a href="https://en.wikipedia.org/wiki/Modularity_%28networks%29#Modularity" target="_blank" rel="noopener"&gt;modularity measure&lt;/a&gt; was used as the fitness function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Selection&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Solving a Real Examination Timetabling Problem</title><link>https://kooroshmoslemi.github.io/posts/examination-timetabling/</link><pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/examination-timetabling/</guid><description>&lt;p&gt;This project was a collaboration with &lt;a href="https://ostadgeorge.github.io/" target="_blank" rel="noopener"&gt;my friend&lt;/a&gt; for the combinatorial optimization course, instructed by &lt;a href="https://scholar.google.com/citations?user=psOw7bMAAAAJ&amp;amp;hl=en" target="_blank" rel="noopener"&gt;Dr. Hooshmand&lt;/a&gt;. Our task was to create a mid-term exam schedule for the entire MCS department at the &lt;a href="https://aut.ac.ir/" target="_blank" rel="noopener"&gt;AmirKabir University of Technology&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The primary challenge was to devise a schedule that accommodated all students, ensuring that no student had more than one exam on any given day and that there were adequate gaps between exams. Given that each student had a unique set of courses, satisfying everyone&amp;rsquo;s schedule was a complex problem.&lt;/p&gt;</description></item><item><title>Playing Lunar Lander with Expected Sarsa and a Neural Network</title><link>https://kooroshmoslemi.github.io/posts/playing-lunar_lander/</link><pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/playing-lunar_lander/</guid><description>&lt;img src="https://drive.google.com/thumbnail?id=1Vr-gslm25pxx3cYWNX2gceyudy3gAVrY&amp;amp;sz=w1024-h768"
+alt="Final Lunar Lander Policy"
+class="center"
+&gt;
+&lt;p&gt;This project is an enhancement of the final project from the &lt;a href="https://www.coursera.org/account/accomplishments/specialization/J3EH9KB4VPM2" target="_blank" rel="noopener"&gt;Reinforcement Learning specialization on Coursera&lt;/a&gt;. It focuses on using the Expected Sarsa algorithm with a neural network as a function approximator to play Lunar Lander.&lt;/p&gt;
+&lt;p&gt;The model was trained using Keras and TensorFlow.&lt;/p&gt;
+&lt;p&gt;The complete source code for this project is available in this &lt;a href="https://github.com/KooroshMoslemi/Playing-Lunar-Lander" target="_blank" rel="noopener"&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Designing an ETL Pipeline for a Data Warehouse</title><link>https://kooroshmoslemi.github.io/posts/etl-pipeline/</link><pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/etl-pipeline/</guid><description>&lt;p&gt;This project was my final submission for a database course instructed by &lt;a href="https://scholar.google.ca/citations?user=7Eng5oAAAAAJ&amp;amp;hl=en" target="_blank" rel="noopener"&gt;Dr. Gheibi&lt;/a&gt;. The project was divided into three main phases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Database Design&lt;/strong&gt;: The first phase required designing a database for a library, ensuring it adhered to the fifth normal form (5NF).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ETL Pipeline&lt;/strong&gt;: The second phase involved creating an &lt;a href="https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener"&gt;ETL (Extract, Transform, Load)&lt;/a&gt; pipeline to synchronize a data warehouse with the operational database.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Machine&lt;/strong&gt;: The final phase was to develop a &amp;ldquo;time machine&amp;rdquo; feature that could restore the database to a specific point in the past.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the ETL pipeline, a common approach is to replicate each database operation individually, but this can create significant overhead. Instead, I modeled the database as a &lt;a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank" rel="noopener"&gt;Directed Acyclic Graph (DAG)&lt;/a&gt;, where tables and their relationships were represented as vertices and edges. I then used a &lt;a href="https://en.wikipedia.org/wiki/Topological_sorting" target="_blank" rel="noopener"&gt;topological sort&lt;/a&gt; of this DAG to determine the optimal order for applying bulk insert, delete, and update operations.&lt;/p&gt;</description></item><item><title>Detecting Iranian Paper Money to Help People With Visual Disabilities</title><link>https://kooroshmoslemi.github.io/posts/currency-detection/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/currency-detection/</guid><description>&lt;p&gt;This project, undertaken just before I began my university studies, was my first application of deep learning to solve a real-world problem. The inspiration came from Microsoft&amp;rsquo;s Seeing AI app, which offers a range of tools for visually impaired individuals. One of its standout features is the ability to identify currency bills, a functionality I aimed to replicate for Iranian currency, which was not supported by the original app.&lt;/p&gt;
+&lt;p&gt;A significant challenge was the lack of an existing dataset. I dedicated a month to collecting and curating a suitable dataset of Iranian banknotes. During this time, I researched various approaches and decided to use transfer learning with the MobileNet architecture, as the goal was to deploy the model on an Android device. TensorFlow Lite provided the ideal framework for on-device inference.&lt;/p&gt;</description></item><item><title>Designing a Shooting Simulator Game</title><link>https://kooroshmoslemi.github.io/posts/shooting-simulator-game/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/shooting-simulator-game/</guid><description>&lt;!-- &lt;img src="https://drive.google.com/thumbnail?id=1ENNUF3DYnbB8v3upWc445OS61WfD3m-o&amp;amp;sz=w1024-h768"
+alt="Advanced Line Follower Robot"
+class="center"
+&gt;
+--&gt;
+&lt;p&gt;Inspired by the annual science fair at my school, which encouraged students to explore new ideas and create innovative projects, my team and I decided to develop a game. Leveraging our experience from the &lt;a href="https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/"&gt;advanced line follower robot project&lt;/a&gt;, we designed a shooting simulator game.&lt;/p&gt;
+&lt;p&gt;The setup involved embedding a laser into a toy gun and creating a target box with an archery target. An IP camera was placed inside the box to capture the laser&amp;rsquo;s position on the target.&lt;/p&gt;</description></item><item><title>Advanced Line Follower Robot</title><link>https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/</link><pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/</guid><description>&lt;img src="https://drive.google.com/thumbnail?id=1x8KBGWNxjee1NCjo61HL6qvCS4usiH6j&amp;amp;sz=w1024-h768"
+alt="Advanced Line Follower Robot"
+class="center"
+&gt;
+&lt;p&gt;Building upon our experience with the &lt;a href="https://kooroshmoslemi.github.io/posts/simple-line-follower-robot/"&gt;simple line follower robot&lt;/a&gt;, my team and I decided to develop a more advanced version with enhanced capabilities. This iteration replaced the basic IR sensors with a camera, enabling the robot to perform image processing to identify and follow lines and shapes of various colors.&lt;/p&gt;
+&lt;p&gt;Here is a video of the robot:&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WU4G3W5LuWQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;div style="margin-top: rem;"&gt;&lt;/div&gt;
-&lt;h3 id="vimeo-video-sample"&gt;Vimeo Video Sample&lt;/h3&gt;
-&lt;div
-style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
-&lt;iframe
-src="https://player.vimeo.com/video/48912912?dnt=0"
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen"&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Shortcodes Samples</title><link>https://kooroshmoslemi.github.io/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://kooroshmoslemi.github.io/posts/shortcodes/</guid><description>&lt;p&gt;This is a sample post intended to test the followings:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Default hero image.&lt;/li&gt;
-&lt;li&gt;Different shortcodes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="alert"&gt;Alert&lt;/h2&gt;
-&lt;p&gt;The following alerts are available in this theme.&lt;/p&gt;
-&lt;div class="alert success"&gt;
-&lt;span&gt;&lt;i data-feather="check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;success&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert danger"&gt;
-&lt;span&gt;&lt;i data-feather="alert-octagon"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;danger&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert warning"&gt;
-&lt;span&gt;&lt;i data-feather="alert-triangle"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;warning&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert info"&gt;
-&lt;span&gt;&lt;i data-feather="info"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;info&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert dark"&gt;
-&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;dark&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert primary"&gt;
-&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;primary&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="alert secondary"&gt;
-&lt;span&gt;&lt;i data-feather="alert-circle"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;span&gt;&lt;strong&gt;This is sample alert with &lt;code&gt;type=&amp;quot;secondary&amp;quot;&lt;/code&gt;.&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;h2 id="image"&gt;Image&lt;/h2&gt;
-&lt;h4 id="a-sample-image-without-any-attribute"&gt;A sample image without any attribute.&lt;/h4&gt;
-&lt;img src="https://kooroshmoslemi.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-&gt;
-&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
-&lt;h4 id="a-sample-image-with-height-and-width-attributes"&gt;A sample image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
-&lt;img src="https://kooroshmoslemi.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="600"
-height="400"
-&gt;
-&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
-&lt;h4 id="a-center-aligned-image-with-height-and-width-attributes"&gt;A center aligned image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
-&lt;img src="https://kooroshmoslemi.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="600"
-height="400"
-class="center"
-&gt;
-&lt;div style="margin-top: 3rem;"&gt;&lt;/div&gt;
-&lt;h4 id="a-image-with-float-attribute"&gt;A image with &lt;code&gt;float&lt;/code&gt; attribute.&lt;/h4&gt;
-&lt;img src="https://kooroshmoslemi.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="500"
-height="200"
-style="float: right;"
-&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p&gt;</description></item><item><title>Go বেসিক</title><link>https://kooroshmoslemi.github.io/notes/go/basic/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/basic/_index.bn/</guid><description/></item><item><title>Introduction</title><link>https://kooroshmoslemi.github.io/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program --&gt;
+&lt;p&gt;The image processing pipeline was as follows:&lt;/p&gt;</description></item><item><title>A Simple Line Follower Robot</title><link>https://kooroshmoslemi.github.io/posts/simple-line-follower-robot/</link><pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/simple-line-follower-robot/</guid><description>&lt;p&gt;This project showcases a simple line follower robot that I designed and built with a team of friends during my junior high school years. The robot&amp;rsquo;s core is an &lt;a href="https://en.wikipedia.org/wiki/AVR_microcontrollers" target="_blank" rel="noopener"&gt;AVR microcontroller&lt;/a&gt;, and its circuit was designed using &lt;a href="https://www.labcenter.com/" target="_blank" rel="noopener"&gt;Proteus&lt;/a&gt;. For programming, we utilized &lt;a href="https://avrhelp.mcselec.com/index.html" target="_blank" rel="noopener"&gt;Bascom&lt;/a&gt;, a straightforward yet capable language that met our project&amp;rsquo;s requirements.&lt;/p&gt;
+&lt;p&gt;Below is a video demonstration of the robot in action:&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/P_MbR9GoPVY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>Go বেসিক</title><link>https://kooroshmoslemi.github.io/notes/go/basic/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/basic/_index.bn/</guid><description/></item><item><title>Introduction</title><link>https://kooroshmoslemi.github.io/notes/go/basic/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/basic/introduction/</guid><description>&lt;!-- A Sample Program --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Hello World&lt;/span&gt;&lt;/h5&gt;
@@ -317,4 +256,4 @@ style="float: right;"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Go এর নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes"&gt;Go Notes&lt;/h1&gt;</description></item><item><title>Sub-Category</title><link>https://kooroshmoslemi.github.io/posts/category/sub-category/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/category/sub-category/_index.bn/</guid><description/></item><item><title>Top Category Sample</title><link>https://kooroshmoslemi.github.io/posts/category/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/category/_index.bn/</guid><description/></item><item><title>নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/_index.bn/</guid><description/></item><item><title>পোস্ট সমূহ</title><link>https://kooroshmoslemi.github.io/posts/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes"&gt;Bash Notes&lt;/h1&gt;</description></item></channel></rss>
+&lt;/div&gt;</description></item><item><title>Go এর নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/go/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/go/_index.bn/</guid><description>&lt;h1 id="go-notes"&gt;Go Notes&lt;/h1&gt;</description></item><item><title>নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/_index.bn/</guid><description/></item><item><title>ব্যাশের নোট সমূহ</title><link>https://kooroshmoslemi.github.io/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes"&gt;Bash Notes&lt;/h1&gt;</description></item></channel></rss>

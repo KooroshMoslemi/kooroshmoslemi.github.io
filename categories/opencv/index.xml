@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenCV on Koorosh's Website</title><link>https://kooroshmoslemi.github.io/categories/opencv/</link><description>Recent content in OpenCV on Koorosh's Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kooroshmoslemi.github.io/categories/opencv/index.xml" rel="self" type="application/rss+xml"/><item><title>Designing a Shooting Simulator Game</title><link>https://kooroshmoslemi.github.io/posts/shooting-simulator-game/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/shooting-simulator-game/</guid><description>&lt;!-- &lt;img src="https://drive.google.com/thumbnail?id=1ENNUF3DYnbB8v3upWc445OS61WfD3m-o&amp;amp;sz=w1024-h768"
+alt="Advanced Line Follower Robot"
+class="center"
+&gt;
+--&gt;
+&lt;p&gt;Inspired by the annual science fair at my school, which encouraged students to explore new ideas and create innovative projects, my team and I decided to develop a game. Leveraging our experience from the &lt;a href="https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/"&gt;advanced line follower robot project&lt;/a&gt;, we designed a shooting simulator game.&lt;/p&gt;
+&lt;p&gt;The setup involved embedding a laser into a toy gun and creating a target box with an archery target. An IP camera was placed inside the box to capture the laser&amp;rsquo;s position on the target.&lt;/p&gt;</description></item><item><title>Advanced Line Follower Robot</title><link>https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/</link><pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate><guid>https://kooroshmoslemi.github.io/posts/advanced-line-follower-robot/</guid><description>&lt;img src="https://drive.google.com/thumbnail?id=1x8KBGWNxjee1NCjo61HL6qvCS4usiH6j&amp;amp;sz=w1024-h768"
+alt="Advanced Line Follower Robot"
+class="center"
+&gt;
+&lt;p&gt;Building upon our experience with the &lt;a href="https://kooroshmoslemi.github.io/posts/simple-line-follower-robot/"&gt;simple line follower robot&lt;/a&gt;, my team and I decided to develop a more advanced version with enhanced capabilities. This iteration replaced the basic IR sensors with a camera, enabling the robot to perform image processing to identify and follow lines and shapes of various colors.&lt;/p&gt;
+&lt;p&gt;Here is a video of the robot:&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WU4G3W5LuWQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;The image processing pipeline was as follows:&lt;/p&gt;</description></item></channel></rss>
