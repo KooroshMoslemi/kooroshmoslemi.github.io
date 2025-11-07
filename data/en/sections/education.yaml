@@ -121,6 +121,8 @@ degrees:
   customSections: #(optional)
     - name: Accomplishments
       content: Ranked 434 out of 164,278 students (**top 0.3%**) in the Mathematics field in the Iranian National University Entrance Exam.
+    - name: Patent
+      content: No. 13965014000301156 - "Circular Ruler for Measuring Angles, Drawing Circles, and Linear Measurement with Integrated Set Square Functionality"
 # - name: Secondary School Certificate
 #   icon: fa-school
 #   timeframe: 2005-2010
