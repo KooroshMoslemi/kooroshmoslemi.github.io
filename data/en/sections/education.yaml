@@ -112,7 +112,7 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
   grade: #(optional)
-    scale: GPA
+    scale: CGPA
     achieved: 19.97
     outOf: 20
   extracurricularActivities: #(optional)
