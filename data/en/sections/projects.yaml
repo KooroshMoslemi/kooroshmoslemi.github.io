@@ -103,3 +103,9 @@ projects:
   summary: "The goal is to estimate the full 3D position and orientation trajectory of a sensor head as it moves through space. The solution fuses measurements from two different sensors—a stereo camera and an Inertial Measurement Unit (IMU)—using the Gauss-Newton method."
   repo: "https://github.com/KooroshMoslemi/Sparse-Batch-Optimization-for-6-DOF-Pose-Estimation-with-IMU-Camera-Fusion"
   tags: ["PhD", "Sensor Fusion", "Gauss-Newton", "State Estimation"]
+
+- name: "Multi-Drone Pursuit-Evasion"
+  image: /images/sections/projects/pursuit_evasion.png
+  summary: "This projects introduces a comprehensive framework for training autonomous drone swarms in pursuit-evasion tasks using multi-agent reinforcement learning. The work's central innovation is a 'progressive scenario architecture', a six-tier system designed to systematically increase coordination complexity. This tiered approach guides agents from basic trajectory-following of static goals to the cooperative capture of intelligent and evasive targets. By bridging theoretical coordination strategies with realistic quadrotor physics and aerodynamics , this progressive system successfully validates that agents can learn sophisticated, cooperative behaviors in complex, multi-constraint environments."
+  url: "https://drive.google.com/uc?export=download&id=1cKSrGyW176tD2ilZzdCDVhlWWQoCPzWG"
+  tags: ["PhD", "MARL", "Pursuit-Evasion", "Environment Design"]
